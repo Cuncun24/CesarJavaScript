@@ -1,0 +1,16 @@
+// Comandos para subir el respositorio que ya tienes creado
+
+git add . // 
+git commit -m "Descripción de los cambios que hiciste" //
+git push origin main // 
+
+
+// Comandos para subir un nuevo repositorio
+
+git init // Inicializa Git en tu carpeta de proyecto
+git add . // Agrega los archivos al repositorio
+git commit -m "Primer commit" // Crea un commit inicial
+git remote add origin url // Conecta tu proyecto local con GitHub
+
+git branch -M main // Sube los archivos al repositorio remoto
+git push -u origin main
