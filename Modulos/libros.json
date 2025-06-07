@@ -1,0 +1,16 @@
+[
+  {
+    "titulo": "Aprende JavaScript",
+    "autor": "Juan Pérez",
+    "numeroPaginas": 250,
+    "editorial": "Editorial JS",
+    "idioma": "Español"
+  },
+  {
+    "titulo": "JavaScript Avanzado",
+    "autor": "Laura Gómez",
+    "numeroPaginas": 300,
+    "editorial": "CodePress",
+    "idioma": "Español"
+  }
+]

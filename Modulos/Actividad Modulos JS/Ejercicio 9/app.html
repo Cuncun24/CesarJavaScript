@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <head>
+  <meta charset="UTF-8">
+  <title>Agenda de Contactos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      max-width: 500px;
+      margin: 0 auto 20px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin: 5px 2px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+  <h1>Agenda de Contactos</h1>
+
+  <form>
+    <input type="text" id="identificacion" placeholder="Identificación"><br>
+    <input type="text" id="nombre" placeholder="Nombre"><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br>
+    <input type="email" id="correo" placeholder="Correo"><br>
+    <input type="text" id="celular" placeholder="Celular"><br><br>
+
+    <button type="button" id="btnAgregar">Agregar</button>
+    <button type="button" id="btnConsultar">Consultar</button>
+    <button type="button" id="btnActualizar">Actualizar</button>
+    <button type="button" id="btnEliminar">Eliminar</button>
+  </form>
+
+  <h2>Lista de Contactos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Identificación</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo</th>
+        <th>Celular</th>
+      </tr>
+    </thead>
+    <tbody id="tablaContactos">
+    </tbody>
+  </table>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
+
